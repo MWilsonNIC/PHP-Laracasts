@@ -14,13 +14,13 @@
     </style>
 </head>
 <body>
-    <h1>
+    <?php
+    $name = "Dark Matter";
+    ?>
        
        <h1>
        You have read 'Dark Matter'.
        </h1>
-       
-    </h1>
     
 </body>
 </html>
