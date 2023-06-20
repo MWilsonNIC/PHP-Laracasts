@@ -24,10 +24,9 @@
    ?>
 
    <ul>
-    <?php foreach ($books as $book) {
-        echo "<li>$book</li>";
-    }
-    ?>
+    <?php foreach ($books as $book): ?> 
+        <li><?php echo $book; ?> </li>
+    <?php endforeach; ?>
    </ul>
     
 </body>
