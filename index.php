@@ -16,10 +16,16 @@
 <body>
     <?php
     $name = "Dark Matter";
+    $read = false;
+    if ($read){
+        $message = "You have read $name";
+    } else {
+        $message = "You have not read $name";
+    }
     ?>
        
        <h1>
-       You have read 'Dark Matter'.
+       <?php echo $message; ?>
        </h1>
     
 </body>
