@@ -30,9 +30,11 @@
    ];
    ?>
 
-   <p>
-        <?= $books[1] ?>
-   </p>
+   <ul>
+    <?php foreach ($books as $book) : ?>
+        <li><?= $book['name']; ?></li>
+    <?php endforeach; ?>
+   </ul>
     
 </body>
 </html>
