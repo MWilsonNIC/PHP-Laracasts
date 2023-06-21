@@ -17,9 +17,16 @@
    <h1>Recommended Books</h1>
    <?php
    $books = [
-    "Do Androids Dream of Electric Sheep",
-    "The Langoliers",
-    "Hail Mary"
+    [
+        'name' => 'Do Androids Dream of Electric Sheep',
+        'author' => 'Philip K. Dick',
+        'purchaseUrl' => 'http://example.com'
+    ],
+    [
+        'name' => 'Project Hail Mary',
+        'author' => 'Andy Weir',
+        'purchaseUrl' => 'http://example.com' 
+    ]
    ];
    ?>
 
